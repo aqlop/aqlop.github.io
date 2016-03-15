@@ -4,7 +4,8 @@
 // var MARGIN_TOP = 60;
 // var MARGIN_LEFT = 30;
 
-var endTime = new Date(2016, 2, 15, 20, 0, 0);
+var endTime = new Date();
+endTime.setTime(endTime.getTime()+3600*1000);
 var curShowTimeSeconds = 0;
 
 var balls = [];
