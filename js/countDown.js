@@ -15,7 +15,7 @@ window.onload = function() {
     canvas.height = WINDOW_HEIGHT;
 
     curShowTimeSeconds = getCurrentShowTimeSeconds();
-    // render(context);
+   
     setInterval(function () {
     	render(context);
     	update();
