@@ -33,9 +33,9 @@ window.onload = function() {
         update();
     }, 50);
 
-    setTimeout(function() {
-        window.location.href = 'tangram.html';
-    }, 5000)
+    // setTimeout(function() {
+    //     window.location.href = 'tangram.html';
+    // }, 5000)
 }
 
 function getCurrentShowTimeSeconds() {
